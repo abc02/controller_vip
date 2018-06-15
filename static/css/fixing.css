@@ -1,0 +1,96 @@
+html,
+body,
+#Fixing_content {
+    height: 100%;
+    height: 100vh;
+}
+
+#Fixing_content {
+    background-color: #172a6b;
+    position: relative;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.head {
+    position: relative;
+    text-align: center;
+    margin: 64px 120px 48px;
+}
+
+.head .ditu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 135px;
+    width: 253px;
+    background-image: url('../images//ditu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head .aboo-logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 82px;
+    height: 105px;
+    background-image: url('../images/aboo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head .list-title {
+    margin: 0 auto;
+    width: 441px;
+    height: 67px;
+    font-size: 0;
+    font-weight: bold;
+    color: white;
+    margin-bottom: .2em;
+    background-image: url('../images/vip_title.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.head .sub {
+    margin: 0 auto;
+    width: 296px;
+    height: 14px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 0;
+    color: #ddd;
+    background-image: url('../images/vip_sub.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.main .table-outer {
+    background: rgba(35, 60, 124, 1);
+    margin: 0 120px 80px;
+    border: 2px solid #4da7ea;
+    height: 100%;
+    padding: 0 80px 40px;
+    /* border-radius: 12px; */
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, .2), 0 0 6px 0 rgba(255, 255, 255, .24);
+    color: white;
+}
+.main .table-title {
+    margin: 45px 0;
+}
+.main .table-outer .table {
+    border: 2px solid #8892ac;
+}
+.table th, .table td {
+    text-align: center;
+    border: 1px solid #8892ac;
+}
